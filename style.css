@@ -1,0 +1,60 @@
+.backgroundImage{
+    img{
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    div{
+        width: 200px;
+        margin: 20px;
+    }
+}
+
+.colons img{
+    width: 120px;
+    height: 120px;
+}
+
+.tables{
+    .table{
+        border-collapse: collapse;
+        thead{
+            tr{
+                th{
+                    padding: 15px;
+                    border: 1px solid #dee2e6;
+                    background-color: #333;
+                    color: #fff;
+                    border: 1px solid #333;
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    border: 1px solid #333;
+                    &:first-child{
+                        font-weight: bold;
+                    }
+                }
+                &:first-child{
+                    td{
+                        &:first-child{
+                            color: #dc3545;   
+                        }
+                    }
+                }
+                &:nth-child(3){
+                    td{
+                        background-color: #f2e7c3;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer a{
+    text-decoration: none;
+}
